@@ -1,0 +1,48 @@
+URxvt*font: xft:monofur:size=13, xft:FontAwesome:size=13
+
+URxvt*depth: 32
+URxvt*background: [90]#13132f
+
+URxvt*print-pipe: "cat > /dev/null"
+
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: /usr/bin/xdg-open
+URxvt*matcher.button: 1
+
+! special
+*.foreground:   #59bee0
+*.background:   #13132f
+*.cursorColor:  #59bee0
+
+! black
+*.color0:       #282a2e
+*.color8:       #1b112c
+
+! red
+*.color1:       #4438b7
+*.color9:       #4438b7
+
+! green
+*.color2:       #2e28d8
+*.color10:      #2e28d8
+
+! yellow
+*.color3:       #612be1
+*.color11:      #612be1
+
+! blue
+*.color4:       #9d2de7
+*.color12:      #9d2de7
+
+! magenta
+*.color5:       #d42eef
+*.color13:      #d42eef
+
+! cyan
+*.color6:       #985ae9
+*.color14:      #985ae9
+
+! white
+*.color7:       #59bee0
+*.color15:      #59bee0
+
